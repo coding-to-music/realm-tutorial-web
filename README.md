@@ -2,6 +2,15 @@
 
 Follow along at https://docs.mongodb.com/realm/tutorial/web-graphql/
 
+I opened this issue in the MongoDB Discussion Forums
+https://www.mongodb.com/community/forums/t/attempting-to-build-realm-tutorial-web-with-the-start-branch-but-getting-errors/144507
+
+## Repo created using the Start branch
+
+```java
+git clone --branch start https://github.com/mongodb-university/realm-tutorial-web.git
+```
+
 ## Troubleshooting
 
 - Be sure to **check the logs in Realm UI** for more information as well as the console in your app.
