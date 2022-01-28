@@ -75,7 +75,7 @@ function useAddTask(project) {
         },
       });
     },
-  });
+  });  
 
   const addTask = async (task) => {
     const { addedTask } = await addTaskMutation({
@@ -89,7 +89,7 @@ function useAddTask(project) {
       },
     });
     return addedTask;
-}
+};
 
 function useUpdateTask(project) {
   const [updateTaskMutation] = useMutation(UpdateTaskMutation);

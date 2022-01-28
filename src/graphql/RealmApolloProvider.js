@@ -5,7 +5,7 @@ import {
   HttpLink,
   InMemoryCache,
   ApolloProvider,
-} from "@apollo/client";
+} from "@apollo/client"; 
 
 // Create an ApolloClient that connects to the provided Realm.App's GraphQL API
 const createRealmApolloClient = (app) => {

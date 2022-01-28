@@ -20,11 +20,14 @@
     "@testing-library/user-event": "^7.1.2",
     "graphql": "^15.3.0",
     "graphql-tag": "^2.11.0",
+    "node-polyfill-webpack-plugin": "^1.1.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^5.0.0",
     "react-spinners": "^0.9.0",
     "realm-web": "^1.5.1",
+    "stream": "^0.0.2",
+    "util": "^0.12.4",
     "validator": "^13.7.0"
   },
   "scripts": {
