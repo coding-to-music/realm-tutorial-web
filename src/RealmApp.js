@@ -1,3 +1,18 @@
+import React from "react";
+import * as Realm from "realm-web";
+
+const RealmAppContext = React.createContext();
+
+export const useRealmApp = () => {
+  const app = React.useContext(RealmAppContext);
+  if (!app) {
+    throw new Error(
+      `You must call useRealmApp() inside of a <RealmAppProvider />`
+    );
+  }
+  return app;
+};
+
 export const RealmAppProvider = ({ appId, children }) => {
   const [app, setApp] = React.useState(new Realm.App(appId));
   React.useEffect(() => {
